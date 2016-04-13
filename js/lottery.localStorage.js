@@ -11,10 +11,6 @@ lottery.localStorage = (function(){
 	set = function( key, val ){
 		window.localStorage.setItem( key, val );
 	};
-	//读取本地中奖数据
-	reading = function(){
-
-	};
 	clear = function(){
 		window.localStorage.clear();
 	};
